@@ -13,7 +13,7 @@ class Estudiante extends Model
     protected $table = 'estudiante';
 
     // campos de la tabla
-    protected $fillable =[
+    protected $fillable = [
         'nombre',
         'edad',
         'correo',
